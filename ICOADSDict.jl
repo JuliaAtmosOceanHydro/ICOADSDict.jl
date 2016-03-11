@@ -14,7 +14,7 @@ export imma                                             # and attachments by sym
 
 const symb0 = [:YR :MO :DY  :HR :LAT :LON :IM :ATTC :TI :LI :DS :VS :NID :II :ID :C1 :DI :D :WI  :W :VI :VV :WW :W1 :SLP :A :PPP :IT :AT :WBTI :WBT :DPTI :DPT :SI :SST :N :NH :CL :HI :H :CM :CH :WD :WP :WH :SD :SP :SH]'
 const leng0 = [  4   2   2    4    5    6   2     1   1   1   1   1    2   2   9   2   1  3   1   3   1   2   2   1    5  1    3   1   4     1    4     1    4   2    4  1   1   1   1  1   1   1   2   2   2   2   2   2]' 
-const scal0 = [  1   1   1 0.01 0.01 0.01   1     1   1   1   1   1    1   1   0   0   1  1   1 0.1   1   1   1   1  0.1  1  0.1   1 0.1     1  0.1     1  0.1   1    1  1   1   0   1  0   0   0   1   1   1   1   1   1]'
+const scal0 = [  1   1   1 0.01 0.01 0.01   1     1   1   1   1   1    1   1   0   0   1  1   1 0.1   1   1   1   1  0.1  1  0.1   1 0.1     1  0.1     1  0.1   1  0.1  1   1   0   1  0   0   0   1   1   1   1   1   1]'
 
 const symb1 = [:ATTI1 :ATTL1 :BSI :B10 :B1 :DCK :SID :PT :DUPS :DUPC :TC :PB :WX :SX :C2 :SQZ :SQA :AQZ :AQA :UQZ :UQA :VQZ :VQA :PQZ :PQA :DQZ :DQA :ND :SF :AF :UF :VF :PF :RF :ZNC :WNC :BNC :XNC :YNC :PNC :ANC :GNC :DNC :SNC :CNC :ENC :FNC :TNC :QCE :LZ :QCZ]'
 const leng1 = [     2      2    1    3   2    3    3   2     2     1   1   1   1   1   2    1    1    1    1    1    1    1    1    1    1    1    1   1   1   1   1   1   1   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    2   1    2]'
