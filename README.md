@@ -17,6 +17,7 @@ at, and then downloading from, http://rda.ucar.edu/datasets/ds540.0/
 Given an unpacked ICOADS file, the following script illustrates the use of the
 dictionary that is returned from the function imma:
 
+```
 using ICOADSDict
 fil = "ICOADS_R3_Beta3_199910.dat"
 fpa = open(fil,         "r")
@@ -40,3 +41,4 @@ end
 
 close(fpa)
 close(fpb)
+```
