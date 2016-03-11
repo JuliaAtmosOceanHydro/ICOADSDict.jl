@@ -8,7 +8,10 @@ by many countries.  This package returns a dictionary of symbols and alphanumeri
 values from an ICOADS IMMA file.  The files themselves are available by registering
 at, and then downloading from, http://rda.ucar.edu/datasets/ds540.0/ but before
 registering, it's worth taking a look at the historical animation generated from
-the data: http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
+the data and courtesy of the UK Met Office:
+
+http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
+
 Is it obvious when the Suez and Panama canals opened?
 
 # Installation
