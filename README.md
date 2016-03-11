@@ -6,7 +6,10 @@ of the world’s in situ surface marine observations and represents a culminatio
 efforts to digitize, assemble, and reconcile information collected over the years
 by many countries.  This package returns a dictionary of symbols and alphanumeric
 values from an ICOADS IMMA file.  The files themselves are available by registering
-at, and then downloading from, http://rda.ucar.edu/datasets/ds540.0/
+at, and then downloading from, http://rda.ucar.edu/datasets/ds540.0/ but before
+registering, it's worth taking a look at the historical animation generated from
+the data: http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
+Is it obvious when the Suez and Panama canals opened?
 
 # Installation
 
