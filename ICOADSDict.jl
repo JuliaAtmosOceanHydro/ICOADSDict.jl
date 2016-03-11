@@ -9,7 +9,7 @@
  = attachments 5 and 6 are not parsed (at least until 5 is formalized) - RD March 2016.
  =#
 
-module ICOADS                                           # first define the values contained in the core
+module ICOADSDict                                       # first define the values contained in the core
 export imma                                             # and attachments by symbol, location, and scale
 
 const symb0 = [:YR :MO :DY  :HR :LAT :LON :IM :ATTC :TI :LI :DS :VS :NID :II :ID :C1 :DI :D :WI  :W :VI :VV :WW :W1 :SLP :A :PPP :IT :AT :WBTI :WBT :DPTI :DPT :SI :SST :N :NH :CL :HI :H :CM :CH :WD :WP :WH :SD :SP :SH]'

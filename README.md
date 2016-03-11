@@ -12,7 +12,9 @@ the data and courtesy of the UK Met Office:
 
 http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
 
-Is it obvious when the Suez and Panama canals opened?
+Is it obvious when the Suez and Panama canals were opened?  When did data coverage
+seriously improve along the Equatorial Pacific (to watch El Nino develop from moored
+buoys) and in the Southern Hemisphere (thanks to drifters!)?
 
 # Installation
 
