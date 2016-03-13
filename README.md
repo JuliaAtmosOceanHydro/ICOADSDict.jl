@@ -7,7 +7,7 @@ efforts to digitize, assemble, and reconcile information collected over the year
 by many countries.  This package returns a dictionary of symbols and alphanumeric
 values from an ICOADS IMMA file.  The files themselves are available by registering
 at, and then downloading from, http://rda.ucar.edu/datasets/ds540.0/ but before
-registering, it's worth taking a look at the historical animation generated from
+registering, it is worth taking a look at the historical animation generated from
 the data and courtesy of the UK Met Office:
 
 http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
