@@ -32,3 +32,8 @@
 *.dSYM/
 .*.swp
 limbo/
+
+# Julia ignores
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
