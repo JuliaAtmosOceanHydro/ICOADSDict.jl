@@ -85,4 +85,4 @@ function imma(line::AbstractString)
   return vals
 end
 
-end                                                                           # end module
+end                                                                           # end ICOADSDict module
