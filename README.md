@@ -1,6 +1,8 @@
 ICOADSDictionary.jl
 ============
 
+[![Build Status](https://travis-ci.org/JuliaAtmosOcean/ICOADSDict.jl.png)](https://travis-ci.org/JuliaAtmosOcean/ICOADSDict.jl)
+
 The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) is a compilation
 of the world’s in situ surface marine observations and represents a culmination of
 efforts to digitize, assemble, and reconcile information collected over the years
