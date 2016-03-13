@@ -14,10 +14,13 @@ the data and courtesy of the UK Met Office:
 
 http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
 
-Is it obvious when the Suez and Panama canals opened for business?  Note the changes
-in ship speed.  When did data coverage seriously improve along the Equatorial Pacific
-(to watch El Nino develop from moored buoys) and in the Southern Hemisphere (thanks
-to drifters!)?
+Is it obvious when the Suez (1869) and Panama (1914) canals opened for business?
+Even with the introduction of steam engines and paddle steamers, changes in ship
+speed seem more impressive once screw propellers took over (1855?).  Wars invariably
+impacted shipping, but the Crimean (1853-1856) and American Civil (1861-1865) wars
+had quite different impacts in the Pacific.  When did data coverage seriously improve
+along the Equatorial Pacific (to watch El Nino develop using arrays of moored buoys)
+and in the Southern Hemisphere (thanks to drifters following the surface currents)?
 
 # Installation
 
