@@ -38,7 +38,7 @@ fil = "ICOADS_R3_Beta3_199910.dat"
 fpa = open(fil,         "r")
 fpb = open(fil*".flux", "w")
 
-for line in readlines(fpa)
+for line in eachline(fpa)
   val = imma(rstrip(line))
   if haskey(val,  :YR) && haskey(val,  :MO) && haskey(val,  :DY) &&  haskey(val,  :HR) &&
      haskey(val, :LAT) && haskey(val, :LON) && haskey(val,   :D) &&  haskey(val,   :W) &&
