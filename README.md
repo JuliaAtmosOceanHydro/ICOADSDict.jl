@@ -25,7 +25,7 @@ following the surface currents)?
 
 # Installation
 
-    Pkg.clone("git@github.com:JuliaAtmosOcean/ICOADSDict.jl.git")
+    Pkg.add("ICOADSDict")
 
 # Quickstart
 
