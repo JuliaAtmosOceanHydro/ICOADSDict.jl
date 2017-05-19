@@ -6,7 +6,7 @@
  = of being standardized.  Note that the dictionary returns only defined values (that is, the
  = original string if a scale parameter is zero, a scaled float if the scale is positive, and
  = a float converted from a different base if the scale is negative) and for the time being,
- = attachments 5 and 6 are not parsed (at least until 5 is formalized) - RD March 2016.
+ = attachments 5 and 6 are not parsed (at least until 5 is formalized) - RD March 2016, May 2017
  =#
 
 module ICOADSDict                                       # first define the values contained in the core
