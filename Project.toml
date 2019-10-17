@@ -1,5 +1,6 @@
 name = "ICOADSDict"
 uuid = "60101457-b834-54f3-bc3b-04499cd57c3b"
+version = "1.2.0"
 
 [compat]
 julia = "≥ 1.2.0"
