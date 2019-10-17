@@ -17,6 +17,7 @@ notifications:
 script:
     - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
     - julia -e 'using Pkg; Pkg.build()'
+    - julia -e 'import Pkg; Pkg.add("Test")'
 #   - if [[ `uname` = "Linux" ]]; then TESTCMD="xvfb-run julia"; else TESTCMD="julia"; fi
     - julia -e 'using Pkg; Pkg.build("ICOADSDict"); Pkg.test("ICOADSDict"; coverage=true)'
 #  - julia -e 'Pkg.clone(pwd()); Pkg.build("ICOADSDict"); Pkg.test("ICOADSDict"; coverage=true)'
