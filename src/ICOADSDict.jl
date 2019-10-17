@@ -51,9 +51,9 @@ function imma(line::AbstractString)
       subsec = parse(Int, line[substa:substa+1])
     end
 
-    symb = eval(symbol("symb", subsec))                                       # use the relevant section arrays
-    leng = eval(symbol("leng", subsec))
-    scal = eval(symbol("scal", subsec))
+    symb = eval(Symbol("symb", subsec))                                       # use the relevant section arrays
+    leng = eval(Symbol("leng", subsec))
+    scal = eval(Symbol("scal", subsec))
     sumlen = sum(leng)
     subend = substa + sumlen - 1
 
@@ -65,16 +65,16 @@ function imma(line::AbstractString)
       end
 #     println(subsec, " :", sublin, ": ")
 
-      index = [0; cumsum(leng)] + 1                                           # add any valid entries from each
+      index = [0; cumsum(leng)] .+ 1                                          # add any valid entries from each
       for (a, sym) in enumerate(symb)                                         # section and return the dictionary
         tmpval = sublin[index[a]:index[a]+leng[a]-1]
         if tmpval != " "^leng[a]
           if scal[a] > 0
-            vals[sym] = float(tmpval) * scal[a]
+            vals[sym] = parse(Float64, tmpval) * scal[a]
           elseif scal[a] == 0
             vals[sym] = strip(tmpval)
           else
-            vals[sym] = float(parse(Int, tmpval, 36))
+            vals[sym] = float(parse(Int, tmpval, base = 36))
           end
 #         println(sym, " ", vals[sym])
         end

@@ -1,5 +1,15 @@
-using ICOADSDict
-using Base.Test
+using Test, ICOADSDict
 
-# write your own tests here
-@test 1 == 1
+"Function that returns a valid file name of a non-existing file for all OSs"
+function tempname2()
+    f, h = mktemp()
+    close(h)
+    rm(f)
+    f
+end
+tlist = [Int8, UInt8, Int16, UInt16, Int32,UInt32, Int64,UInt64, Float32, Float64]
+
+@testset "NetCDF" begin
+    include("oneliner.jl")
+end
+nothing
