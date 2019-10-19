@@ -33,7 +33,7 @@ Given an unpacked ICOADS file, the following script illustrates the use of the
 dictionary that is returned from the function imma:
 
 ```
-using ICOADSDict
+using ICOADSDict, Printf
 fil = "ICOADS_R3_Beta3_199910.dat"
 fpa = open(fil,         "r")
 fpb = open(fil*".flux", "w")
@@ -45,8 +45,8 @@ for line in eachline(fpa)
      haskey(val, :SLP) && haskey(val,  :AT) && haskey(val, :SST) &&  haskey(val, :DPT)
     if 0 <= val[:W] < 50 && 880 < val[:SLP] < 1080 && -40 <= val[:AT] < 40 && -40 <= val[:DPT] < 40 && -2 <= val[:SST] < 40 &&
        val[:SF] == 1 && val[:AF] == 1 && val[:UF] == 1 && val[:VF] == 1 && val[:PF] == 1 && val[:RF] == 1
-      if haskey(val, :ID)  iden = val[:ID]  else  iden = "MISSING"  end ; iden = replace(strip(iden), ' ', '_')
-      date = @sprintf("%4d%2d%2d%4d", val[:YR], val[:MO], val[:DY], val[:HR]) ; date = replace(date, ' ', '0')
+      if haskey(val, :ID)  iden = val[:ID]  else  iden = "MISSING"  end ; iden = replace(strip(iden), ' ' => '_')
+      date = @sprintf("%4d%2d%2d%4d", val[:YR], val[:MO], val[:DY], val[:HR]) ; date = replace(date, ' ' => '0')
       form = @sprintf("%9s %14s %7.3f %8.3f %8.2f %8.3f %8.3f %8.2f %8.2f %8.2f\n",
         iden, date, val[:LAT], val[:LON], val[:SLP], val[:D], val[:W], val[:AT], val[:DPT], val[:SST])
       write(fpb, form)
