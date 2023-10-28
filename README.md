@@ -12,7 +12,7 @@ at, and then downloading from, http://rda.ucar.edu/datasets/ds540.0/ but before
 registering, it is worth taking a look at the historical animation generated from
 the data and courtesy of the UK Met Office:
 
-http://rda.ucar.edu/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
+https://rda.ucar.edu/OS/web/datasets/ds540.0/docs/ICOADS2.5-HD_Brohan2015.mp4
 
 Is it obvious when the Suez (1869) and Panama (1914) canals opened for business?
 In spite of a slightly earlier introduction of steam engines and paddle steamers,
